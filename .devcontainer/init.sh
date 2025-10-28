@@ -17,4 +17,4 @@ echo "Downloading latest WPILib VS Code extension: $FILENAME"
 wget -q "$LATEST_URL" -O "$FILENAME"
 
 # Optional: install globally for VS Code in Codespaces
-code --install-extension "/opt/$FILENAME" --force
+code --install-extension "/$FILENAME" --force
