@@ -1,7 +1,7 @@
 // 2025 INSTALL
 {
     "image": "mcr.microsoft.com/devcontainers/universal:2",
-    "postCreateCommand": "/bin/bash .devcontainer/init.sh",
+    "postCreateCommand": ".devcontainer/init.sh",
     "features": {},
     "customizations": {
         "vscode": {
